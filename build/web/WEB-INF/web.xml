@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>Categoria</servlet-name>
+        <servlet-class>z.car.servlets.Categoria</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Autor</servlet-name>
+        <servlet-class>z.car.servlets.Autor</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Usuario</servlet-name>
+        <servlet-class>z.car.servlets.Usuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Producto</servlet-name>
+        <servlet-class>z.car.servlets.Producto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Categoria</servlet-name>
+        <url-pattern>/Categoria</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Autor</servlet-name>
+        <url-pattern>/Autor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Producto</servlet-name>
+        <url-pattern>/Producto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Usuario</servlet-name>
+        <url-pattern>/Usuario</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

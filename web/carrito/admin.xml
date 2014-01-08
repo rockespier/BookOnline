@@ -1,0 +1,34 @@
+<ItemMenuAdministrador>
+    <Items>
+        <Item menu.padre="Mantenimiento">
+            <menuid>1</menuid>
+            <ItemAttributes>
+                <nombre>Categoria</nombre>
+            </ItemAttributes>
+        </Item>
+        <Item menu.padre="Mantenimiento">
+            <menuid>2</menuid>
+            <ItemAttributes>
+                <nombre>Autores</nombre>
+            </ItemAttributes>
+        </Item>
+        <Item menu.padre="Mantenimiento">
+            <menuid>3</menuid>
+            <ItemAttributes>
+                <nombre>Productos</nombre>
+            </ItemAttributes>
+        </Item>
+        <Item menu.padre="Mantenimiento">
+            <menuid>4</menuid>
+            <ItemAttributes>
+                <nombre>Usuarios</nombre>
+            </ItemAttributes>
+        </Item>
+        <Item menu.padre="Facturacion">
+            <menuid>5</menuid>
+            <ItemAttributes>
+                <nombre>Lista de Pedidos</nombre>
+            </ItemAttributes>
+        </Item>
+    </Items>
+</ItemMenuAdministrador>
